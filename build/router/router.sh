@@ -1,6 +1,6 @@
 #!/bin/bash
 
-until /usr/bin/mongo --port 27017 --quiet --eval 'db.getMongo()';
+until /usr/bin/mongosh --port 27017 --quiet --eval 'db.getMongo()';
 do
   sleep 1
 done
@@ -13,5 +13,5 @@ do
   then
     break
   fi
-  /usr/bin/mongo --eval "sh.addShard(\"$shard\")"
+  /usr/bin/mongosh --eval "sh.addShard(\"$shard\")"
 done

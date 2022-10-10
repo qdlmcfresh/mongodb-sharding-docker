@@ -30,7 +30,7 @@ After the execution of this command, all the nodes will be started and built wit
 From **mongos** mongo shell
 
 ```console
-mongo --port 27027 # or "docker exec -it mongos1 /bin/bash" and then "mongo" directly from the container terminal
+mongo --port 27027 # or "docker exec -it mongos1 /bin/bash" and then "mongosh" directly from the container terminal
 > sh.status()
 ```
 
