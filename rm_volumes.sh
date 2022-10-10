@@ -1,0 +1,1 @@
+docker volume rm mongodb-sharding-docker_shard_c1 mongodb-sharding-docker_shard_c2 mongodb-sharding-docker_shard_c3 mongodb-sharding-docker_shard_d11 mongodb-sharding-docker_shard_d12 mongodb-sharding-docker_shard_d13 mongodb-sharding-docker_shard_d21 mongodb-sharding-docker_shard_d22 mongodb-sharding-docker_shard_d23
